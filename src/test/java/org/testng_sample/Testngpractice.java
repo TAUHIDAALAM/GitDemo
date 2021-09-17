@@ -12,6 +12,8 @@ public class Testngpractice extends BaseClass {
 
 	public static void main(String[] args) {
 		System.out.println("testring Git");
+		System.out.println("testring Git2");
+		System.out.println("testring Git3");
 	}
 
 }
