@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="shake"/>
+  <parameter name="Username" value="shake123"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.testng_sample.Testngpractice2">
+        <methods>
+          <include name="homepage" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- org.testng_sample.Testngpractice2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
